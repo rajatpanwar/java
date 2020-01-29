@@ -23,4 +23,5 @@ public class Solution {
             result=N*i;
              
              System.out.println(N+ " x "+i+" = "+i*N);
+        
         }   
