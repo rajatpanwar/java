@@ -5,6 +5,7 @@ public class Square1
     {
         
         int sum=0;
+        
         int square=0;
                                   //for loop to square and sum of elements
         for(int i=0;i<10;i++)
