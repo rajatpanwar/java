@@ -3,6 +3,7 @@ public class Square1
 {
     public static int SquareSum(int a[]) 
     {
+        
         int sum=0;
         int square=0;
                                   //for loop to square and sum of elements
