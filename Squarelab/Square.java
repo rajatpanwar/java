@@ -18,6 +18,7 @@ public class Square1
     }
 
     public static void main(String[] args) 
+    
     {
         int j=0;
                                  //create array 
