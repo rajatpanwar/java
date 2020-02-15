@@ -37,6 +37,7 @@ public class Solution {
         for (int arItr = 0; arItr < arCount; arItr++) {
             int arItem = Integer.parseInt(arItems[arItr].trim());
             ar[arItr] = arItem;
+            
         }
 
         int result = simpleArraySum(ar);
