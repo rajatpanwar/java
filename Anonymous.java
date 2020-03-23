@@ -20,6 +20,13 @@ abstract class Person
 
 
 
+
+
+
+
+
+
+
 //Anonymous class should be used when you are override the method of class or interface.
 
 //An object of Anonymous class is created that is referred by p reference 
