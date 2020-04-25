@@ -16,6 +16,7 @@
      <servlet-mapping>
           <servlet-name>Home1</servlet-name>
           <url-pattern>/DateServlet</url-pattern>
-     </servlet-mapping>   
+     </servlet-mapping>
+  
   
 </web-app>
