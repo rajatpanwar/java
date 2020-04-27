@@ -6,7 +6,7 @@ public class Buffer
     for(int x=0; x<s.length(); x++){
         char ch = s.charAt(x);
         if(ch >= 'a' && ch <= 'z')
-            str += "" + (char)(ch - 32);        
+            str += "" + (char)(ch - 32);      //convert lowerr case to upper case  
         else
             str += "" + ch; 
     }
