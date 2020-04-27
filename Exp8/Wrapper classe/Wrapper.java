@@ -23,8 +23,8 @@ public class Wrapper
     System.out.println("Original value of String:-"+number);
     int result=Integer.parseInt(number);
      System.out.println("convert string to int:-"+result);
-
-   System.out.println("CONVERT INT TO STRING-------------");
+                                                            
+   System.out.println("CONVERT INT TO STRING-------------");        //convert int to string
      int c=222;
      String str=String.valueOf(c);
      System.out.println("String is:-"+str);
