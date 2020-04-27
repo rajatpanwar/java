@@ -8,7 +8,7 @@ public class Name
     System.out.println("String length is:- "+n.length());     //find the length of given string
      for(j=0;j<n.length();j++)
        {
-           if(n.charAt(j)=='a' || n.charAt(j)=='a')
+           if(n.charAt(j)=='a' || n.charAt(j)=='a')             
               {
                  incr++;
                  System.out.println("position is of element a:-"+j);
