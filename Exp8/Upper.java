@@ -18,7 +18,7 @@ public class Upper
 }   
        //return str;
         
-public static void main(String[] args)
+public static void main(String[] args)                //without buffer
 {  Upper obj=new Upper(); 
     Scanner sc = new Scanner(System.in);
      System.out.println("enter the name");
