@@ -25,7 +25,7 @@ class Number
                               new Exception();
                      }
                 Number obj=new Number();
-                System.out.println("object created--");
+                System.out.println("object created--");     //if name and age match then print OBJECT CREATED
           }
         catch(Exception e)
           {
