@@ -12,7 +12,7 @@ Scanner in=new Scanner(System.in);
 try
 {
 i=in.nextInt();
-j=in.nextInt();
+j=in.nextInt();            //take input from the user
 add=i+j;
 sub=i-j;
 mul=i*j;
