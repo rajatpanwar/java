@@ -13,7 +13,7 @@ class Number
           age=sc.nextInt();
        try
          {
-            if(!name.matches("[a-zA-Z]+"))
+            if(!name.matches("[a-zA-Z]+"))      // if name mismatch between  these character throw the exception
                {
                   throw 
                         new Exception();
