@@ -23,6 +23,7 @@ System.out.println("Multiplication ="+mul);
 System.out.println("Division ="+div);
 }
 
+  
 catch(InputMismatchException e)
 {
 System.out.println("Program Is Terminated Exception Caught");
