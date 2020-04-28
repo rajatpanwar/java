@@ -11,7 +11,7 @@ class Excep
          b=input.nextInt();
           try
           {
-             c=a/b;
+             c=a/b;                                         //throw try block exception
           }
           catch(ArithmeticException e)
             {
