@@ -11,7 +11,7 @@ public class Student
                     Arr[j].fun();
                   }
           }
-    catch(ArrayIndexOutOfBoundsException e)
+    catch(ArrayIndexOutOfBoundsException e)                       //Exception ArrayIndexOutOfBoundsException
        {
             System.out.println("dont go out of array");
         }
