@@ -1,0 +1,14 @@
+in this question we have created two java file . In account.java file we create a function and write a code and In second file account1.java file write main function and call the account.java file with the help of import package like as:-(Balance.Account)
+
+//and save the both file inside a folder 
+//open command prompt and go inside the folder with the help of cmd
+//first of all we ll compile both file with the help of this command
+
+[[[javac -d . Account.java]]]   //compile first file
+[[[javac -d . Account1.java]]]  //compile second file
+
+
+//after that run the file that has the main function{{ yaa ni run Account1.java file}}
+//with the help of this command
+
+[[[java Account1 
