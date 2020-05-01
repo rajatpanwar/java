@@ -11,7 +11,7 @@
   </welcome-file-list>
      <servlet>
          <servlet-name>Home1</servlet-name>
-         <servlet-class>pkg1.DateServlet</servlet-class>
+         <servlet-class>pkg1.DateServlet</servlet-class>    // call the DateServlet class with the help of pkg1
      </servlet>
      <servlet-mapping>
           <servlet-name>Home1</servlet-name>
