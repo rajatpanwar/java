@@ -19,7 +19,7 @@ class Demo
          }
 }
 
- class Multi1 implements Runnable
+ class Multi1 implements Runnable                       //Runnable interface
 {
         public void run()
          {
