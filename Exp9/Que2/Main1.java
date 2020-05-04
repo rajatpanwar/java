@@ -5,7 +5,7 @@ class Multi extends Thread
         { 
            for(int i=0;i<10;i++)
               {
-                 if(i % 2 == 0)
+                 if(i % 2 == 0)                           //check the no is even
                   {
                      System.out.println("even number: " +i);
                    }
