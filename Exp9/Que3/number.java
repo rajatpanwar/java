@@ -25,12 +25,12 @@ data()
 t=new Thread(this);
 t.start();
 }
-public void run()
+public void run()                                                    
 { d=syn.increment(d); }
 }
 class syn
 {
-synchronized static item increment(item i)
+synchronized static item increment(item i)                                    //using synchronization
 {
 i.count++;
 return(i);
