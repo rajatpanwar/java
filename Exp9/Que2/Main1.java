@@ -19,7 +19,7 @@ class Multi1 extends Thread
      {
         for(int i=0;i<10;i++)
           {
-              if(i % 2 == 1)
+              if(i % 2 == 1)                            //check the no is odd
                 {
                   System.out.println("odd number: " +i);
                  }
