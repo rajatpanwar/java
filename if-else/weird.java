@@ -22,7 +22,7 @@ import java.util.regex.*;
              sol = ("Weird");
          }
          else{
-            if(N>=2&&N<=5)
+            if(N>=2&&N<=5)      //if no between 2 and 5 print not wierd
             {
               sol = ("Not Weird");  
             }
