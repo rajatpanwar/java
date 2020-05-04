@@ -3,7 +3,7 @@ import java.util.HashSet;
 public class Main7 {
 
 	public static void main(String[] args) {
-		HashSet<Integer> obj= new HashSet();  
+		HashSet<Integer> obj= new HashSet();   //creating object with hashset
 obj.add(8);
 obj.add(6);      //Adding values to HashSet
 obj.add(10);
