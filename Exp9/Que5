@@ -5,7 +5,7 @@ import java.util.Iterator;
 
 public class Main5 {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) {       
 	ArrayList<Integer> obj=new ArrayList();  //making object of arraylist
 	obj.add(8);
 	obj.add(10);
@@ -19,7 +19,7 @@ ArrayList newone=new ArrayList();
 newone=(ArrayList)obj.clone();  //making duplicate objects using clone method 
 System.out.println(newone);
 Collections.reverse(obj);
-System.out.println(obj);
+System.out.println(obj);      //print obj
 	}
 
 }
