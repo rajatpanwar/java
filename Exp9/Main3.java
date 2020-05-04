@@ -1,5 +1,8 @@
 import java.util.*;
-
+//Priority for thread execution 
+//1- min priority
+//5- default priority
+//10- highest priority
 class que4 implements Runnable
 {
   public synchronized void run() 
