@@ -26,7 +26,7 @@ class MThread extends Thread
 }
 public void run()
 {
-  t.printTable(5);
+  t.printTable(5);         //print table
 }
 }
 
