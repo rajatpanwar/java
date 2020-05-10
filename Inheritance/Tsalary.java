@@ -7,7 +7,7 @@
        }
 }
 
-class Naresh extends Vinod
+class Naresh extends Vinod       //Inherit the property
 {
     void salary1()
       {
@@ -19,7 +19,7 @@ public class Tsalary
 {
     public static void main(String[] args)
       {
-           Naresh S=new Naresh();
+           Naresh S=new Naresh();            //create a object of drived class
             S.salary();
              S.salary1();
        }
