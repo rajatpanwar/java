@@ -6,7 +6,7 @@ import java.util.regex.*;
 
 public class Solution {
 
-static int B,H;
+static int B,H;                  //ststic variable
     static boolean flag = true;
     static {
         Scanner sc = new Scanner(System.in);
