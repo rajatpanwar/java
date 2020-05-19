@@ -25,3 +25,31 @@ import java.util.Scanner;
             System.out.println("4.EXIT");
             System.out.println("enter any no. to perform the task");
             int n=sc.nextInt();
+          switch(n){
+                case 1:
+                    obj.deposit();
+                    break ;
+                case 2:
+                    obj.withdraw();
+                    break;
+                case 3:
+                    obj.compound();
+                case 4:
+                    System.exit(0);
+                default:
+                    System.out.println("invalid");
+                
+            }
+        }
+        else{
+            System.out.println("1.display balance");
+             System.out.println("2.EXIT");
+             System.out.println("enter number to perform the following task");
+            int c=sc.nextInt();
+            if(c==1)
+             obj1.display();
+            else{
+                System.exit(0);
+            }
+          } } } }
+   
