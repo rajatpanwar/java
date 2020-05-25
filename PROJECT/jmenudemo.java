@@ -85,4 +85,13 @@ public class jmenudemo extends JFrame implements ActionListener
      	{System.exit(0); }
 
   }
+  public static void main(String args[])
+{  jmenudemo m=new jmenudemo();
+    m.setVisible(true);
+    m.setSize(800,800);
+    m.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    m.setTitle("Main Menu");
+}
+}   
+
 
