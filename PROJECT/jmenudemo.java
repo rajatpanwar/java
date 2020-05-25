@@ -49,4 +49,40 @@ public class jmenudemo extends JFrame implements ActionListener
     	  k.setTitle("Stock Update"); 
             dispose();
           }
+ if(h.getSource()==i4)
+      	{  issuescreen l=new issuescreen();
+           l.setVisible(true);
+           l.setSize(800,800);
+           l.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+           l.setTitle("Issue Screen"); 
+           dispose();      
+          }
  
+	if(h.getSource()==i5)
+     	{ issuescreen l=new issuescreen();
+    	  l.setVisible(true);
+    	  l.setSize(800,800);
+    	  l.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    	  l.setTitle("Issue Screen");
+           dispose();
+        }
+
+	if(h.getSource()==i6)
+     	{tables l=new tables();
+         l.setVisible(true);
+         l.setSize(800,800);}
+
+	if(h.getSource()==i7)
+     	{}
+
+	if(h.getSource()==i8)
+     	{}
+
+	if(h.getSource()==i9)
+     	{}
+
+	if(h.getSource()==i10)
+     	{System.exit(0); }
+
+  }
+
