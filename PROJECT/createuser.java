@@ -117,3 +117,17 @@ public void actionPerformed(ActionEvent h)
   }
 
 }
+public static void main(String args[])
+{ createuser x=new createuser();
+    x.setVisible(true);
+    x.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    x.setTitle("CREATE USER");  
+    x.setSize(800,800);
+
+
+}
+}
+
+
+
+
