@@ -95,5 +95,14 @@ public void actionPerformed(ActionEvent h)
     dispose();
    } 
 }
+ public static void main(String args[])
+  { loginscreen q=new loginscreen();
+    q.setVisible(true);
+    q.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    q.setTitle("LOGIN SCREEN");  
+    q.setSize(800,800);
+     
+  }
 
+}   
 
