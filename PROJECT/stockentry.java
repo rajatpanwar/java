@@ -89,3 +89,33 @@ void addicode()
              {flag=flag+1;
               f1.setText(""+flag);
              }
+                 con.close();
+            }
+
+   catch(Exception e)
+   {System.out.println("error ctched:"+e);}
+} 
+
+public void actionPerformed(ActionEvent h)
+{
+   if(h.getActionCommand()=="Insert")
+    {     try
+            { Class.forName("sun.jdbc.odbc.JdbcOdbcDriver");
+              Connection con=DriverManager.getConnection("jdbc:odbc:inventorydsn");
+              Statement Stmt=con.createStatement();
+              String query1="Select * from TBLstock where iname='"+f2.getText()+"'";
+              ResultSet rs= Stmt.executeQuery(query1);
+              int flag=0;
+              while(rs.next())
+              { flag++;  }
+              
+              if(flag==0)
+              {String query="insert into TBLstock(icode,iname,rate,qoh) values("+f1.getText()+",'"+f2.getText()+"',"+f3.getText()+","+f4.getText()+")";
+              int x=Stmt.executeUpdate(query);
+              JOptionPane.showMessageDialog(null,"Item Added");}
+  
+               else
+              {JOptionPane.showMessageDialog(null,"Item already added");}
+               con.close();
+             }
+  
