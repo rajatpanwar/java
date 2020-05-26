@@ -114,4 +114,75 @@ void getdetails()
               f5.setText(s);
               
              }
+                catch(Exception e)
+  	   {System.out.println("error ctched:"+e);}
+  	   
+} 
+
+void geticodes()
+{      try
+         {Class.forName("sun.jdbc.odbc.JdbcOdbcDriver");
+              Connection con=DriverManager.getConnection("jdbc:odbc:inventorydsn");
+              Statement Stmt=con.createStatement();
+              String query1="select icode from TBLstock";
+              ResultSet rs= Stmt.executeQuery(query1);
+              while(rs.next())
+              {
+                b1.addItem(rs.getInt("icode"));
+              } 
+             con.close();
+          }
+     
+            catch(Exception e)
+            {System.out.println("error catched:"+e);}
+ }            
+
+ 
+public void actionPerformed(ActionEvent h)
+{
+   if(h.getActionCommand()=="Issue")
+    {        try
+             {Class.forName("sun.jdbc.odbc.JdbcOdbcDriver");
+              Connection con=DriverManager.getConnection("jdbc:odbc:inventorydsn");
+              Statement Stmt=con.createStatement();
+              if(Integer.parseInt(f6.getText())<=Integer.parseInt(f4.getText()))
+              {String query2="insert into TBLissue(icode,iname,doi,qtyissued) values("+b1.getSelectedItem()+",'"+f2.getText()+"','"+f5.getText()+"',"+f6.getText()+")";
+              int x= Stmt.executeUpdate(query2);
+              String query3="update TBLStock set qoh=qoh-"+f6.getText()+" "+"where icode="+b1.getSelectedItem();
+              int y= Stmt.executeUpdate(query3);
+              JOptionPane.showMessageDialog(null,"item issued");
+               }
+             else
+            {JOptionPane.showMessageDialog(null,"Quantity exceeded");} 
+              con.close();
+             }
+     
+            catch(Exception e)
+            {System.out.println("error catched:"+e);}  
+    
+        
+   }  
+   
+  if(h.getActionCommand()=="Clear")
+   { 
+     f2.setText("");
+     f3.setText("");
+     f4.setText("");
+     f5.setText("");
+     f6.setText("");
+
+   }
+  
+  if(h.getActionCommand()=="Cancel")
+  { jmenudemo m=new jmenudemo();
+    m.setVisible(true);
+    m.setSize(800,800);
+    m.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    m.setTitle("Main Menu"); 
+      dispose();
+   }
+
+
+}
+
 
