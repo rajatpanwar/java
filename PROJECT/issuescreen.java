@@ -43,3 +43,32 @@ public issuescreen()
                     {  public void focusLost(FocusEvent h)
                        { getdetails();  }
                      });
+                       
+  f2=new JTextField(20);  	
+  f2.setBounds(400,150,100,30);
+  
+   f3=new JTextField(20);  	
+   f3.setBounds(400,250,100,30); 
+
+  f4=new JTextField(20);  	
+  f4.setBounds(400,350,100,30);
+
+  f5=new JTextField(20);  	
+  f5.setBounds(400,450,100,30);
+
+ f6=new JTextField(20);  	
+  f6.setBounds(400,550,100,30);
+
+  a1=new JButton("Issue");
+  a1.setBounds(200,590,80,50);
+  a1.addActionListener(this);
+
+
+  a2=new JButton("Clear");
+  a2.setBounds(300,590,80,50);
+  a2.addActionListener(this);
+ 
+  a3=new JButton("Cancel");
+  a3.setBounds(400,590,80,50);
+  a3.addActionListener(this);
+
