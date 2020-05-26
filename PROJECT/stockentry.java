@@ -53,3 +53,39 @@ public class stockentry extends JFrame implements ActionListener
   a3=new JButton("Cancel");
   a3.setBounds(420,600,80,50);
   a3.addActionListener(this);
+  add(l1);
+  add(l2);
+  add(l3);
+  add(l4);
+  add(l5);
+  add(f2);
+  add(f1);
+  add(f3);
+  add(f4);
+  add(a1);
+  add(a2);
+  add(a3);
+ f1.setEditable(false);
+  addicode();
+}
+
+void addicode()
+{            try
+              { Class.forName("sun.jdbc.odbc.JdbcOdbcDriver");
+              Connection con=DriverManager.getConnection("jdbc:odbc:inventorydsn");
+              Statement Stmt=con.createStatement();
+              String query="select icode from TBLstock";
+              ResultSet rs= Stmt.executeQuery(query);
+              int flag=0;
+              while(rs.next())
+              { 
+                flag=rs.getInt("icode");
+              }
+
+             if(flag==0)
+             {f1.setText("1000");}
+            
+             else
+             {flag=flag+1;
+              f1.setText(""+flag);
+             }
