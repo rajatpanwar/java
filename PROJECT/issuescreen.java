@@ -71,4 +71,47 @@ public issuescreen()
   a3=new JButton("Cancel");
   a3.setBounds(400,590,80,50);
   a3.addActionListener(this);
+  add(l1);
+  add(l2);
+  add(l3);
+  add(l4);
+  add(l5);
+  add(l6);
+  add(l7);
+  add(f2);
+  add(b1);
+  add(f3);
+  add(f4);
+  add(f5);
+  add(f6);
+  add(a1);
+  add(a2);
+  add(a3);
+ geticodes(); 
+ f2.setEditable(false);
+ f3.setEditable(false);
+ f4.setEditable(false);
+
+}
+
+
+void getdetails()
+{           try
+             { Class.forName("sun.jdbc.odbc.JdbcOdbcDriver");
+              Connection con=DriverManager.getConnection("jdbc:odbc:inventorydsn");
+              Statement Stmt=con.createStatement();
+              String query="select * from TBLstock where icode="+b1.getSelectedItem().toString();
+              ResultSet rs= Stmt.executeQuery(query);
+              while(rs.next())
+              {f2.setText(rs.getString("iname"));
+               f3.setText(""+rs.getInt("rate"));
+               f4.setText(""+rs.getInt("qoh"));
+              }
+              con.close();
+              Date d=new Date();
+              SimpleDateFormat sdf=new SimpleDateFormat("dd-MM-yyyy hh:mm:ss");
+              String s=sdf.format(d);
+              f5.setText(s);
+              
+             }
 
