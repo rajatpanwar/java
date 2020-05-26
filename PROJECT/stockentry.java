@@ -176,3 +176,13 @@ public void actionPerformed(ActionEvent h)
 
 }
 
+  public static void main(String args[])
+  { stockentry q=new stockentry();
+    q.setVisible(true);
+    q.setSize(800,800);
+    q.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    q.setTitle("Stock Entry"); 
+  }
+
+}   
+
