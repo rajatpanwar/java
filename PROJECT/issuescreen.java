@@ -184,5 +184,15 @@ public void actionPerformed(ActionEvent h)
 
 
 }
+ public static void main(String args[])
+  { issuescreen l=new issuescreen();
+    l.setVisible(true);
+    l.setSize(800,800);
+    l.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    l.setTitle("Issue Screen"); 
+  }
+
+}   
+
 
 
