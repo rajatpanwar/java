@@ -60,4 +60,19 @@ public stockupdate()
   a4=new JButton("Cancel");
   a4.setBounds(500,600,80,50);
   a4.addActionListener(this);
- 
+ add(l1);
+  add(l2);
+  add(l3);
+  add(l4);
+  add(l5);
+  add(f2);
+  add(b1);
+  add(f3);
+  add(f4);
+  add(a1);
+  add(a2);
+  add(a3);
+  add(a4);
+  
+  geticodes();
+}
