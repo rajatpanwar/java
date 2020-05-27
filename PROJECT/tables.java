@@ -20,3 +20,4 @@ public class tables extends JFrame
     for(int j=0;j<4;j++)
    { tm.setValueAt(head[j],0,j);}
     p1= new JScrollPane
+    
