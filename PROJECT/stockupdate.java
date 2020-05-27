@@ -134,3 +134,49 @@ public void actionPerformed(ActionEvent h)
          {System.out.println("error ctched:"+e);}
          
    }  
+   if(h.getActionCommand()=="Clear")
+   { 
+     f2.setText("");
+     f3.setText("");
+     f4.setText("");
+
+   }
+  
+  if(h.getActionCommand()=="Cancel")
+  { jmenudemo m=new jmenudemo();
+    m.setVisible(true);
+    m.setSize(800,800);
+    m.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    m.setTitle("Main Menu");
+    dispose(); 
+  }
+
+ if(h.getActionCommand()=="Delete")
+   {
+           try
+              {Class.forName("sun.jdbc.odbc.JdbcOdbcDriver");
+              Connection con=DriverManager.getConnection("jdbc:odbc:inventorydsn");
+              Statement Stmt=con.createStatement();
+              String query3="Delete from TBLstock where icode="+b1.getSelectedItem();
+              int ans=JOptionPane.showConfirmDialog(null,"Are you sure?");
+             
+              if(ans==JOptionPane.YES_OPTION)
+               { int x=Stmt.executeUpdate(query3);
+                JOptionPane.showMessageDialog(null,"Item Deleted");
+                f2.setText("");
+                f3.setText("");
+                f4.setText("");
+                b1.removeAllItems();
+                geticodes();                 
+                  }
+                con.close();
+              }
+              catch(Exception e)
+              {System.out.println("error ctched:"+e);}
+              
+    }
+
+
+}
+
+   
