@@ -179,4 +179,13 @@ public void actionPerformed(ActionEvent h)
 
 }
 
+public static void main(String args[])
+  { stockupdate k=new stockupdate();
+    k.setVisible(true);
+    k.setSize(800,800);
+    k.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    k.setTitle("Stock Update"); 
+  }
+
+}   
    
