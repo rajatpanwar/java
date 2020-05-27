@@ -76,3 +76,61 @@ public stockupdate()
   
   geticodes();
 }
+void geticodes()
+{      try
+         {Class.forName("sun.jdbc.odbc.JdbcOdbcDriver");
+              Connection con=DriverManager.getConnection("jdbc:odbc:inventorydsn");
+              Statement Stmt=con.createStatement();
+              String query="select icode from TBLstock";
+              ResultSet rs= Stmt.executeQuery(query);
+              while(rs.next())
+              {
+                b1.addItem(rs.getInt("icode"));
+              } 
+             con.close();
+          }
+     
+            catch(Exception e)
+            {System.out.println("error catched:"+e);}
+ }            
+
+
+void getdetails()
+{           try
+             { Class.forName("sun.jdbc.odbc.JdbcOdbcDriver");
+              Connection con=DriverManager.getConnection("jdbc:odbc:inventorydsn");
+              Statement Stmt=con.createStatement();
+              String query1="select * from TBLstock where icode="+b1.getSelectedItem().toString();
+              ResultSet rs= Stmt.executeQuery(query1);
+              while(rs.next())
+              {f2.setText(rs.getString("iname"));
+               f3.setText(""+rs.getInt("rate"));
+               f4.setText(""+rs.getInt("qoh"));
+              }
+              con.close();
+             }
+
+ 	   catch(Exception e)
+  	   {System.out.println("error ctched:"+e);}
+  	   
+} 
+ 
+public void actionPerformed(ActionEvent h)
+{
+   if(h.getActionCommand()=="Modify")
+    {       try
+              {Class.forName("sun.jdbc.odbc.JdbcOdbcDriver");
+              Connection con=DriverManager.getConnection("jdbc:odbc:inventorydsn");
+              Statement Stmt=con.createStatement();
+              String query2="update TBLstock set iname='"+f2.getText()+"',rate="+f3.getText()+",qoh="+f4.getText()+" "+"where icode="+b1.getSelectedItem();
+              int x=Stmt.executeUpdate(query2);
+              JOptionPane.showMessageDialog(null,"Item Modified");
+               f2.setText("");
+               f3.setText("");
+               f4.setText("");
+               con.close();}
+              
+         catch(Exception e)
+         {System.out.println("error ctched:"+e);}
+         
+   }  
