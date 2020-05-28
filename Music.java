@@ -65,3 +65,22 @@ class publication implements sales
 		}
 		}
 	}
+public int sale()
+	{
+		System.out.println("Enter the sales ");
+		int sal=sc.nextInt();
+		return sal;
+	}
+	String title()
+	{
+		String tit=sc.nextLine();
+		
+		return tit;
+	}
+	float price()
+	{
+		float pric=sc.nextFloat();
+		return pric;
+	}
+	
+}
