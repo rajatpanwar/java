@@ -84,3 +84,40 @@ public int sale()
 	}
 	
 }
+class book extends publication
+{
+	Scanner in=new Scanner(System.in);
+	String[] titl= new String[10];
+	int[] count=new int[10];
+	float[] pri=new float[10];
+	int[] pag= new int[10];
+	int number=1;
+	book()
+	{
+	}
+	void jok()
+	{
+		number++;
+		for(int i=0;i<number-1;i++)
+		{
+			System.out.println("Enter the title of the book");
+			titl[i]=title();
+			System.out.println("Enter the price of the book");
+			pri[i]=price();
+			System.out.println("Enter the page of book");
+			pag[i]=page();
+		}
+	}
+	int page()
+	{
+		
+		int pagno=in.nextInt();
+		return pagno;
+	}
+	void display()
+	{
+		for(int j=0;j<number;j++)
+		{
+			System.out.println("title="+titl[j]+ "price ="+pri[j]+" page="+pag[j]);
+		}
+	}
