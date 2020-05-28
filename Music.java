@@ -121,3 +121,53 @@ class book extends publication
 			System.out.println("title="+titl[j]+ "price ="+pri[j]+" page="+pag[j]);
 		}
 	}
+	}	
+class tape extends publication
+{
+	Scanner s=new Scanner(System.in);
+	String[] titt=new String[10];
+	float[] pre=new float[10];	
+	float[] time=new float[10];
+	int num=1;	
+	tape()
+	{
+	}
+	void moi()
+	{
+		num++;
+		for(int k=0;k<num-1;k++)
+		{
+		System.out.println("Enter the title of tape");
+		titt[k]=title();
+		System.out.println("Enter the price of tape");
+		pre[k]=price();
+		System.out.println("Enter the play time");
+		time[k]=playing();
+		}
+	}
+	float playing()
+	{
+		float tim=s.nextFloat();
+		return tim;
+	}
+	void display()
+	{
+		for(int y=0;y<num;y++)
+		{
+			System.out.println("title="+titt[y]+ "price ="+pre[y]+" playing time="+time[y]);
+			
+		}
+	}
+	
+}
+public class music
+{
+	public static void main(String[] args)
+	{
+		System.out.println("\t\t Welcome to the store");
+		publication ma=new publication();
+		
+		
+		ma.show();
+	}
+}
