@@ -18,4 +18,53 @@ class Account
   }
 
 }
+class Cur_acct extends Account
+{   
+    Cur_acct(int q,int w, String e)
+   {super(q,w,e);}
+    
+     
+    void chequebook()
+    {System.out.println("new checkbook issued");}
+  
+    void minbalance()
+    { if(balance1<500)
+       { System.out.println("Service charges imposed");
+         balance1=balance1-100;}
+   
+       else       
+       System.out.println("you have sufficient balance");
+     }
+ 
+   void deposit()
+   {System.out.print("enter the amount to deposit in current account:");
+    float m=sc.nextFloat();
+     balance1=balance1+m;
+    }
+    
+   void display()
+   {System.out.println("Your current balance is:"+" "+balance1);}
 
+ 
+}
+
+class Sav_acct extends Account
+{ 
+   Sav_acct(int q,int w, String e)
+   {super(q,w,e);}
+   
+   void interest()
+   { System.out.println("Bank gives 2% interest every month");
+     balance=balance+(balance*2)/100;
+     System.out.println("interest added to the account");
+    } 
+
+    void withdrawal()
+    { System.out.print("enter the amount to withdraw:");
+      float z=sc.nextFloat();
+      if(z>balance)
+      {System.out.println("insufficient balance");}
+      else
+      balance=balance-z;
+      System.out.println("amount:"+" "+z+" "+"withdarwed");   
+    }
