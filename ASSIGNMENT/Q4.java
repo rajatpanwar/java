@@ -18,7 +18,7 @@ class Account
   }
 
 }
-class Cur_acct extends Account
+class Cur_acct extends Account      //inherit  the class
 {   
     Cur_acct(int q,int w, String e)
    {super(q,w,e);}
