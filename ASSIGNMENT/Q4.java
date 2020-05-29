@@ -68,3 +68,4 @@ class Sav_acct extends Account
       balance=balance-z;
       System.out.println("amount:"+" "+z+" "+"withdarwed");   
     }
+    
