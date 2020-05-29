@@ -74,3 +74,9 @@ class tape extends publication
 }
 public class music
 {
+	public static void main(String[] args)
+	{
+		publication ma=new publication();
+		
+	}
+}
