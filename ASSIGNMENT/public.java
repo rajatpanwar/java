@@ -21,3 +21,4 @@ class publication implements sales
 			tape obj2=new tape();
 		}
 	}
+	
