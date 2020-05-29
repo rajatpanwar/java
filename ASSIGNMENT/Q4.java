@@ -68,4 +68,37 @@ class Sav_acct extends Account
       balance=balance-z;
       System.out.println("amount:"+" "+z+" "+"withdarwed");   
     }
+    case 2: Random i = new Random();
+                int n=i.nextInt(10000);
+                s.nextLine();
+                System.out.print("enter the account type:");
+                String acc=s.nextLine();
+           
+                if(acc.equals("saving"))
+                {Sav_acct obj1=new Sav_acct(0,n,"saving");
+                 obj1.deposit();
+                 obj1.interest();
+                 obj1.withdrawal();
+                 obj1.display(); 
+                 }
+                 else
+                 {Cur_acct obj3=new Cur_acct(0,n,"current");
+                 obj3.deposit();
+                 obj3.minbalance();
+                 obj3.chequebook();
+                 obj3.display();
+                 }
+                 break;
+
+          case 3: System.exit(0);
+  
+          default: System.out.println("invalid choise");
+                   break;
+         }
+            
+       }               
+
+}
+}
+
     
