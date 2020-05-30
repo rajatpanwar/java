@@ -7,13 +7,13 @@ import java.util.concurrent.*;
 import java.util.regex.*;
 
 
-  public class Solution {
-
-
-
+  public class Solution 
+  {
+  
     private static final Scanner scanner = new Scanner(System.in);
 
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
         int N = scanner.nextInt();
         String sol=" ";
         scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
