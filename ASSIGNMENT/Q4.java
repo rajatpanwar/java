@@ -1,13 +1,15 @@
 import java.util.*;
 import java.io.*;
 class Account
-{  String name,type;
+{  
+   String name,type;
    int accno;
    float balance=0,balance1=0;
    Scanner sc=new Scanner(System.in);
 
    Account(int p, int k, String g)
-  {System.out.print("enter the name:");
+  {
+   System.out.print("enter the name:");
    name=sc.nextLine();
    accno=k;
    type=g;
@@ -21,7 +23,9 @@ class Account
 class Cur_acct extends Account      //inherit  the class
 {   
     Cur_acct(int q,int w, String e)
-   {super(q,w,e);}
+   {
+       super(q,w,e);
+    }
     
      
     void chequebook()
