@@ -3,7 +3,8 @@ import java.util.Scanner;
    int balance =500;//declare min balance
    int rate=4;//declare intrest rate for compound intrest
    
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         sav_acct obj=new sav_acct();// make object of saving account
         cur_acct obj1=new cur_acct();//make object of current account
         
@@ -17,7 +18,8 @@ import java.util.Scanner;
         char type=sc.next().charAt(0);
         boolean q=true;//condition to return back to the menu
         while(q){
-        if(type=='S'){
+        if(type=='S')
+        {
             
             System.out.println("1.deposit");
             System.out.println("2.withdraw");
@@ -25,7 +27,8 @@ import java.util.Scanner;
             System.out.println("4.EXIT");
             System.out.println("enter any no. to perform the task");
             int n=sc.nextInt();
-          switch(n){
+          switch(n)
+          {
                 case 1:
                     obj.deposit();
                     break ;
@@ -41,7 +44,8 @@ import java.util.Scanner;
                 
             }
         }
-        else{
+        else
+        {
             System.out.println("1.display balance");
              System.out.println("2.EXIT");
              System.out.println("enter number to perform the following task");
