@@ -4,7 +4,8 @@ public class Student
         public static void main(String[] args)
          {
             upes Arr[]=new upes[10];
-           try{
+           try
+           {
                 for(int j=0;j<15;j++)
                  {
                      Arr[j]=new upes();
@@ -27,7 +28,4 @@ Scanner sc=new Scanner(System.in);
                System.out.println("Enter roll no : ");
                 int rollno=sc.nextInt();
             }
-
-
-
 }
