@@ -7,10 +7,12 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-public class Calculator extends HttpServlet {
+public class Calculator extends HttpServlet 
+{
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
-            throws ServletException, IOException {
+            throws ServletException, IOException 
+            {
                
                 PrintWriter out = response.getWriter();
                 String n1 = request.getParameter("txt1");
