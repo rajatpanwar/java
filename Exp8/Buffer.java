@@ -1,17 +1,18 @@
 public class Buffer
-{
+ {
     public static String toUpperCase(StringBuffer s)
-{
-    String str = "";
-    for(int x=0; x<s.length(); x++){
-        char ch = s.charAt(x);
-        if(ch >= 'a' && ch <= 'z')
+    {
+      String str = "";
+      for(int x=0; x<s.length(); x++)
+       {
+         char ch = s.charAt(x);
+         if(ch >= 'a' && ch <= 'z')
             str += "" + (char)(ch - 32);      //convert lowerr case to upper case  
         else
             str += "" + ch; 
+       }
+       return str;
     }
-    return str;
-}
 
 public static void main(String[] args)
 {
