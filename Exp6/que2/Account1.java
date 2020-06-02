@@ -4,6 +4,6 @@ public class Account1
    public static void main(String[] args)
      {
         Account obj=new Account();
-         obj.Display_Balance();
-       }
+        obj.Display_Balance();               //object created for class Account
+     }
 }
