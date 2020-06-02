@@ -7,8 +7,10 @@ class Table
    int i;
    for(i=1;i<=5;i++)
 
-   {System.out.println(n*i);
-    try {
+   {
+     System.out.println(n*i);
+     try 
+          {
           Thread.sleep(400);
           }
       catch(Exception e)
@@ -20,10 +22,10 @@ class Table
 class MThread extends Thread
 {
     Table t;
- MThread(Table t)
-{
+    MThread(Table t)
+   {
     this.t=t;
-}
+   }
 public void run()
 {
   t.printTable(5);         //print table
@@ -32,11 +34,11 @@ public void run()
 
 class MThread1 extends Thread
 {
-     Table t;
+   Table t;
    MThread1(Table t)
      {
           this.t=t;
-      }
+     }
 
 public void run()
 {
@@ -49,10 +51,10 @@ class Synchronization1
     public static void main(String args[])
       {
          Table obj=new Table();            //create object of class
-          MThread t1=new MThread(obj);
-          MThread1 t2=new MThread1(obj);
-           t1.start();
-           t2.start();
+         MThread t1=new MThread(obj);
+         MThread1 t2=new MThread1(obj)
+         t1.start();
+         t2.start();
        }
 }
 
