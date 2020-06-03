@@ -3,9 +3,11 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Iterator;
 
-public class Main5 {
+public class Main5
+{
 
-	public static void main(String[] args) {       
+	public static void main(String[] args) 
+	{       
 	ArrayList<Integer> obj=new ArrayList();  //making object of arraylist
 	obj.add(8);
 	obj.add(10);
