@@ -1,10 +1,9 @@
 import java.util.Scanner;
-public class Lab3 {
-
-    
-  public static void main(String[] strings) {
-
-        Scanner input = new Scanner(System.in);
+public class Lab3
+{
+  public static void main(String[] strings)
+  {
+    Scanner input = new Scanner(System.in);
 
         String MonthOfName;
 
