@@ -17,6 +17,7 @@ class Solution{
 
             try
             {
+               
                 long x=sc.nextLong();
                 System.out.println(x+" can be fitted in:");
                 if(x>=-128 && x<=127)
