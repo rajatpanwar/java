@@ -6,9 +6,10 @@ import java.util.*;
 import java.util.concurrent.*;
 import java.util.regex.*;
 
-public class Solution {
+public class Solution
+{
 
-    // Complete the miniMaxSum function below.
+                                           // Complete the miniMaxSum function below.
     static void miniMaxSum(long[] arr) {
         long temp,max=0,min=0;
         for(int p=0;p<arr.length-1;p++)
