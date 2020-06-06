@@ -1,20 +1,20 @@
 class Worker
 {
- String name;
- int empno;
- Worker(int no, String n)
- {
- empno=no;
- name=n;
- }
- void show()
- {
- System.out.println("\n");
- System.out.println("Employee number:"+empno);
- System.out.println("Employee name:"+name);
- }
+  String name;                //declaring variables
+  int empno;
+  Worker(int no, String n)
+  {
+    empno=no;
+    name=n;
+  }
+  void show()
+  {
+    System.out.println("\n");
+    System.out.println("Employee number:"+empno);
+    System.out.println("Employee name:"+name);
+  }
 }
-class Dailyworker extends Worker
+class Dailyworker extends Worker    //create inherited class of worker class
 {
  int rate;
  Dailyworker(int no, String n, int r)
@@ -28,7 +28,7 @@ class Dailyworker extends Worker
   System.out.println("Salary:"+rate*h);
  }
 }
-class Salariedworker extends Worker
+class Salariedworker extends Worker     //inherited class of worker class
 {
  int rate;
  Salariedworker(int no, String n, int r)
@@ -43,7 +43,7 @@ class Salariedworker extends Worker
   System.out.println("Salary:"+rate*hour);
  }
 }
-class Employee_worker
+class Employee_worker                     //public class
 {
  public static void main(String[] args)
  {
