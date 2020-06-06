@@ -4,12 +4,10 @@ import java.text.*;
 import java.util.*;
 import java.util.regex.*;
 
-public class Solution {
-
-    /*
-     * Complete the simpleArraySum function below.
-     */
-    static int simpleArraySum(int[] ar) {
+public class Solution 
+{                                         //array function
+    static int simpleArraySum(int[] ar)
+    {
         int add=0;
         
         for(int i=0;i<ar.length;i++)
@@ -26,7 +24,8 @@ public class Solution {
 
     private static final Scanner scanner = new Scanner(System.in);
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws IOException 
+    {
         BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
 
         int arCount = Integer.parseInt(scanner.nextLine().trim());
@@ -35,7 +34,8 @@ public class Solution {
 
         String[] arItems = scanner.nextLine().split(" ");
 
-        for (int arItr = 0; arItr < arCount; arItr++) {
+        for (int arItr = 0; arItr < arCount; arItr++) 
+        {
             int arItem = Integer.parseInt(arItems[arItr].trim());
             ar[arItr] = arItem;
         }
