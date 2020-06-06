@@ -1,4 +1,4 @@
-abstract class Person
+abstract class Person                             //abstract class
 {
        abstract void animal();
 }
@@ -7,11 +7,11 @@ abstract class Person
         {
             public static void main(String[] args)
                {
-                  Person p=new Person()
+                  Person p=new Person()                  //new class of abstract class
                  { 
                     void animal()
                       {
-                         System.out.println("LION IS A BRAVE ANIMAL");
+                         System.out.println("LION IS A BRAVE ANIMAL");        
                        }
                   };
                      p.animal();
