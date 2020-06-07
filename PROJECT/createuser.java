@@ -3,7 +3,7 @@ import javax.swing.*;
 import java.awt.event.*;
 import java.sql.*;
 
-public class createuser extends JFrame implements ActionListener
+public class createuser extends JFrame implements ActionListener    //create inherited class
 {
 
  JLabel l1,l2,l3;
