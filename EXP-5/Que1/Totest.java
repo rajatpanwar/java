@@ -3,15 +3,15 @@ interface test                //create interface
 {
 	void square(int num);
 }
- class arthmatic implements test
+ class arithmetic implements test
 {
 	public void square(int num)
 	{
-		int b=num*num;
+		int b=num*num;                               //assign the new variable its value  
 		System.out.println(b);
 	}
 }
- public class Totest 
+ public class Totest                                           //create public class
 {
 		public static void main(String[] args) 
 		{
