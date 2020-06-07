@@ -6,7 +6,7 @@ import java.util.*;
 import java.text.*;
 import java.util.Date;
 
-public class issuescreen extends JFrame implements ActionListener
+public class issuescreen extends JFrame implements ActionListener                 //inherited class
 {
 
  JLabel l1,l2,l3,l4,l5,l6,l7;
