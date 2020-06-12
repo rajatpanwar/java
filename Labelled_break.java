@@ -12,7 +12,7 @@ System.out.println("* ";
 System.out.println("");
 }
 }if(x==3)
-break navin;
+break navin;                       //labelled break
 System.out.println("* ";
 }
 System.out.println("");
