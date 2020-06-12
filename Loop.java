@@ -23,4 +23,11 @@ x++;
 }
 while(x<10);
   
+for(int y=2; y<=10; y++)
+{
+System.out.println(y);
+}
+}
+}
+  
 
