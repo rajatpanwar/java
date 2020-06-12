@@ -7,9 +7,9 @@ for(int x=1; x<=4; x++)
 {
 if(x==3)
 break navin;
-System.out.println("* ";
+System.out.print("* ");
 }
-System.out.println("");
+System.out.println(" ");
 }
 }if(x==3)
 break navin;                       //labelled break
