@@ -17,3 +17,10 @@ System.out.println(" ");
 }
 }
 }
+
+
+//output-
+* * * *
+*     *
+*     *
+* * * *
