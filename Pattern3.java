@@ -2,11 +2,11 @@ public class Pattern3
 {
 public static void main(String[] args)
 {
-for(int i=1;i<=5;i++)     //number of rows
+for(int a=1;a<=5;a++)     //number of rows
 {
-for(int j=1;j<=i;j++)     //number of columns
+for(int b=1;b<=a;b++)     //number of columns
 {
-if((i+j)%2==0)                  //figure out the positions where we need to print 1 and 0
+if((a+b)%2==0)                  //figure out the positions where we need to print 1 and 0
 System.out.print("1");
 else
 System.out.print("0");
