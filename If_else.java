@@ -6,7 +6,7 @@ public class If_else
    x=10;
    y=5;
    z=15;
-   if(x>y && x>z)
+   if(x>y && x>z)                             //conditions for if-else loop
      System.out.println(x);
    else if(y>z)
      System.out.println(y);
