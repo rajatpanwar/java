@@ -1,4 +1,4 @@
-public class Continue_dowhile
+public class dowhile
 {
 public static void main(String[] args)
 {
