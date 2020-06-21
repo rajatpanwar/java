@@ -1,4 +1,4 @@
-public class Continue_whileloop
+public class whileloop
 {
 public static void main(String[] args)
 {
