@@ -10,11 +10,13 @@ acc_no=a;
 name=n;
 amount=amt;
 }
+
 void deposit(float amt)
 {
 amount=amount+amt;
 System.out.println(amt+" deposited");
 }
+
 void withdraw(float amt)
 {
 if(amount<amt)
@@ -25,11 +27,14 @@ amount=amount-amt;
 System.out.println(amt+" withdrawn");
 }
 }
+
 void checkbalance()
 {System.out.println("balance is "+amount);}
+
 void display()
 {System.out.println(acc_no+" "+name+" "+amount);}
 }
+
 class TestAccount
 {
 public static void main(String args[])
