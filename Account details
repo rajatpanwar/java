@@ -30,3 +30,16 @@ void checkbalance()
 void display()
 {System.out.println(acc_no+" "+name+" "+amount);}
 }
+class TestAccount
+{
+public static void main(String args[])
+{
+Account a1=new Account();
+a1.insert(9876543,"Rohan",20000);
+a1.display();
+a1.deposit(50000);
+a1.checkbalance();
+a1.withdraw(10000);
+a1.checkbalance();
+}
+}
