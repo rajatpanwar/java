@@ -15,3 +15,13 @@ void deposit(float amt)
 amount=amount+amt;
 System.out.println(amt+" deposited");
 }
+void withdraw(float amt)
+{
+if(amount<amt)
+{System.out.println("insuffiecient balance");}
+else
+{
+amount=amount-amt;
+System.out.println(amt+" withdrawn");
+}
+}
