@@ -1,0 +1,5 @@
+class Account
+{
+int acc_no;
+String name;
+float amount;
