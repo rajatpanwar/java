@@ -25,3 +25,8 @@ amount=amount-amt;
 System.out.println(amt+" withdrawn");
 }
 }
+void checkbalance()
+{System.out.println("balance is "+amount);}
+void display()
+{System.out.println(acc_no+" "+name+" "+amount);}
+}
