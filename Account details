@@ -10,3 +10,8 @@ acc_no=a;
 name=n;
 amount=amt;
 }
+void deposit(float amt)
+{
+amount=amount+amt;
+System.out.println(amt+" deposited");
+}
