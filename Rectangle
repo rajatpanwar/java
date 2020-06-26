@@ -2,3 +2,8 @@ class Rectangle
 {
 int length;
 int width;
+void dimensions(int l,int w)
+{
+length=l;
+width=w;
+}
