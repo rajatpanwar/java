@@ -7,3 +7,8 @@ void dimensions(int l,int w)
 length=l;
 width=w;
 }
+void area()
+{
+System.out.println(length*width);
+}
+}
