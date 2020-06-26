@@ -2,16 +2,19 @@ class Rectangle
 {
 int length;
 int width;
+
 void dimensions(int l,int w)
 {
 length=l;
 width=w;
 }
+
 void area()
 {
 System.out.println(length*width);
 }
 }
+
 class Rectangle_box
 {
 public static void main(String args[])
