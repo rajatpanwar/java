@@ -3,23 +3,23 @@ class Rectangle
 int length;
 int width;
 
-void dimensions(int l,int w)
+void dimensions(int l,int w)                        //class to insert the dimensions
 {
 length=l;
 width=w;
 }
 
-void area()
+void area()                                        //class to calculate the area
 {
 System.out.println(length*width);
 }
 }
 
-class Rectangle_box
+class Rectangle_box                                //class for main method
 {
-public static void main(String args[])
+public static void main(String args[])            //main method
 {
-Rectangle r1=new Rectangle();
+Rectangle r1=new Rectangle();                     //object for the class
 Rectangle r2=new Rectangle();
 r1.dimensions(20,40);
 r1.area();
