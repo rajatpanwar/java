@@ -12,3 +12,15 @@ void area()
 System.out.println(length*width);
 }
 }
+class Rectangle_box
+{
+public static void main(String args[])
+{
+Rectangle r1=new Rectangle();
+Rectangle r2=new Rectangle();
+r1.dimensions(20,40);
+r1.area();
+r2.dimensions(5,8);
+r2.area();
+}
+}
