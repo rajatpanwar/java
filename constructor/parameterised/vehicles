@@ -13,3 +13,9 @@ System.out.println(vehicle_no+" "+vehicle_name);
 }
 public static void main(String args[])
 {
+Vehicles v1=new Vehicles(8942, "bike");
+Vehicles v2=new Vehicles(6824, "car");
+v1.display();
+v2.display();
+}
+}
