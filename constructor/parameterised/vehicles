@@ -9,3 +9,7 @@ vehicle_name=y;
 }
 void display()
 {
+System.out.println(vehicle_no+" "+vehicle_name);
+}
+public static void main(String args[])
+{
