@@ -3,3 +3,9 @@ class Vehicles
 int vehicle_no;
 String vehicle_name;
 Vehicles(int x,String y)
+{
+vehicle_no=x;
+vehicle_name=y;
+}
+void display()
+{
