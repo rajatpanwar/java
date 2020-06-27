@@ -1,0 +1,5 @@
+class Vehicles
+{
+int vehicle_no;
+String vehicle_name;
+Vehicles(int x,String y)
