@@ -3,12 +3,12 @@ class Students
 int id;
 String name;
 int age;
-Students(int i, String n)
+Students(int i, String n)                            //constructor of the class
 {
 id=i;
 name=n;
 }
-Students(int i, String n, int a)
+Students(int i, String n, int a)                    //constructor overloading
 {
 id=i;
 name=n;
