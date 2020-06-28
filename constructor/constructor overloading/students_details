@@ -14,3 +14,15 @@ id=i;
 name=n;
 age=a;
 }
+void display()
+{
+System.out.println(id+" "+name+" "+age);
+}
+public static void main(String args[])
+{
+Students S1=new Students(124, "khushi");
+Students S2=new Students(84, "aryan", 18);
+S1.display();
+S2.display();
+}
+} 
