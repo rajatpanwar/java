@@ -3,3 +3,8 @@ class Students
 int id;
 String name;
 int age;
+Students(int i, String n)
+{
+id=i;
+name=n;
+}
