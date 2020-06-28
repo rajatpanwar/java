@@ -7,3 +7,12 @@ Student_details(int i,String n)
 id=i;
 name=n;
 }
+Student_details(Student_details s)
+{
+id=s.id;
+name=s.name;
+}
+void display()
+{
+System.out.println(id+" "+name);
+}
