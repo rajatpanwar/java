@@ -8,3 +8,9 @@ Students(int i, String n)
 id=i;
 name=n;
 }
+Students(int i, String n, int a)
+{
+id=i;
+name=n;
+age=a;
+}
