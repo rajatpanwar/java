@@ -16,3 +16,11 @@ void display()
 {
 System.out.println(id+" "+name);
 }
+public static void main(String args[])
+{
+Student_details s1=new Student_details(104, "nisha");
+Student_details s2=new Student_details(s1);
+s1.display();
+s2.display();
+}
+}
