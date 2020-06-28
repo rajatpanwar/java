@@ -1,0 +1,9 @@
+class Student_details
+{
+int id;
+String name;
+Student_details(int i,String n)
+{
+id=i;
+name=n;
+}
