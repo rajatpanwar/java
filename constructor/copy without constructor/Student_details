@@ -2,7 +2,7 @@ class Student_record
 {
 int id;
 String name;
-Student_record(int i, String n)
+Student_record(int i, String n)                                      //constructors of the class
 {
 id=i;
 name=n;
@@ -17,7 +17,7 @@ public static void main(String args[])
 {
 Student_record s1=new Student_record(12, "Arushi");
 Student_record s2=new Student_record();
-s2.id=s1.id;
+s2.id=s1.id;                                                        //copy without constructor
 s2.name=s1.name;
 s1.display();
 s2.display();
