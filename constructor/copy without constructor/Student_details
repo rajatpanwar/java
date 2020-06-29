@@ -7,3 +7,9 @@ Student_record(int i, String n)
 id=i;
 name=n;
 }
+Student_record()
+{}
+void display()
+{
+System.out.println(id+" "+name);
+}
