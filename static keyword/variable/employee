@@ -1,0 +1,5 @@
+class employee
+{
+int emp_id;
+String name;
+static String company="super alloy";
