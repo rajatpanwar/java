@@ -15,3 +15,14 @@ void display()
 System.out.println(emp_id+" "+name+" "+company);
 }
 }
+
+public class employee_record
+{
+public static void main(String args[])
+{
+employee e1=new employee(9876,"ruhi");
+employee e2=new employee(6754,"akshat");
+e1.display();
+e2.display();
+}
+}
