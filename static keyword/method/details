@@ -12,3 +12,8 @@ Employee(int e, String n)
 emp_id=e;
 name=n;
 }
+void display()
+{
+System.out.println(emp_id+" "+name+" "+company);
+}
+}
