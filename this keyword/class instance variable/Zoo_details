@@ -3,3 +3,10 @@ class Zoo
 String name;
 int cage_no;
 int age;
+
+Zoo(String name, int cage_no, int age)
+{
+this.name=name;
+this.cage_no=cage_no;
+this.age=age;
+}
