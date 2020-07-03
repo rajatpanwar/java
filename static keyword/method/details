@@ -3,3 +3,7 @@ class Employee
 int emp_id;
 String name;
 static String company="super alloy";
+static void change()
+{
+company="casting ltd";
+}
