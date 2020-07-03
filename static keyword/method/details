@@ -2,8 +2,8 @@ class Employee
 {
 int emp_id;
 String name;
-static String company="super alloy";
-static void change()
+static String company="super alloy";                             //static variable
+static void change()                                             //static method to change the value of static variable.
 {
 company="casting ltd";
 }
@@ -21,7 +21,7 @@ public class Employee_details
 {
 public static void main(String args[])
 {
-Employee.change();
+Employee.change();                                                //calling the static method
 Employee e1=new Employee(1928, "sameer");
 Employee e2=new Employee(9923, "karishma");
 e1.display();
