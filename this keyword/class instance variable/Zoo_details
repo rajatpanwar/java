@@ -10,3 +10,9 @@ this.name=name;
 this.cage_no=cage_no;
 this.age=age;
 }
+
+void display()
+{
+System.out.println(name+" "+cage_no+" "+age);
+}
+}
