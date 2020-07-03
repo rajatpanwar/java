@@ -16,3 +16,14 @@ void display()
 System.out.println(name+" "+cage_no+" "+age);
 }
 }
+
+public class Zoo_details
+{
+public static void main(String args[])
+{
+Zoo z1=new Zoo("tiger",423,10);
+Zoo z2=new Zoo("deer", 328, 5);
+z1.display();
+z2.display();
+}
+}
