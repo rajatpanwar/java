@@ -1,0 +1,5 @@
+class Zoo
+{
+String name;
+int cage_no;
+int age;
