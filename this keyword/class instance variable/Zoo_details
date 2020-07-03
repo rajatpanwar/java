@@ -4,9 +4,9 @@ String name;
 int cage_no;
 int age;
 
-Zoo(String name, int cage_no, int age)
+Zoo(String name, int cage_no, int age)                                  
 {
-this.name=name;
+this.name=name;                               //this is used when parameters and instance variables are same 
 this.cage_no=cage_no;
 this.age=age;
 }
