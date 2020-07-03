@@ -17,3 +17,14 @@ void display()
 System.out.println(emp_id+" "+name+" "+company);
 }
 }
+public class Employee_details
+{
+public static void main(String args[])
+{
+Employee.change();
+Employee e1=new Employee(1928, "sameer");
+Employee e2=new Employee(9923, "karishma");
+e1.display();
+e2.display();
+}
+}
