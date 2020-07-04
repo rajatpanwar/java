@@ -19,3 +19,13 @@ void display()
 System.out.println(id+" "+name+" "+course+" "+fees);
 }
 }
+class Student_details
+{
+public static void main(String args[])
+{
+Student s1=new Student(2014, "ayush", "computer", 40000f);
+Student s2=new Student(3987, "simran", "mechanical", 30000f);
+s1.display();
+s2.display();
+}
+}
