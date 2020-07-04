@@ -1,0 +1,5 @@
+class 	Student
+{
+int id;
+String name, course;
+float fees;
