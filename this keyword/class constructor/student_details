@@ -11,7 +11,7 @@ this.course=course;
 }
 Student(int id, String name, String course, float fees)
 {
-this(id, name, course);
+this(id, name, course);                                                //constructor reusing
 this.fees=fees;
 }
 void display()
@@ -23,8 +23,8 @@ class Student_details
 {
 public static void main(String args[])
 {
-Student s1=new Student(2014, "ayush", "computer", 40000f);
-Student s2=new Student(3987, "simran", "mechanical", 30000f);
+Student s1=new Student(2674, "ashish", "civil", 45000f);
+Student s2=new Student(3567, "smriti", "computer", 59000f);
 s1.display();
 s2.display();
 }
