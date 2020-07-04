@@ -14,3 +14,8 @@ Student(int id, String name, String course, float fees)
 this(id, name, course);
 this.fees=fees;
 }
+void display()
+{
+System.out.println(id+" "+name+" "+course+" "+fees);
+}
+}
