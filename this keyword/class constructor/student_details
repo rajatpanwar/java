@@ -9,3 +9,8 @@ this.id=id;
 this.name=name;
 this.course=course;
 }
+Student(int id, String name, String course, float fees)
+{
+this(id, name, course);
+this.fees=fees;
+}
