@@ -2,3 +2,7 @@ class s2
 {
 void m(s2 obj)
 {
+System.out.println("method involked");
+}
+void p()
+{
