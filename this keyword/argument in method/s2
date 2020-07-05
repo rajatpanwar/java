@@ -11,3 +11,7 @@ m(this);
 }
 public static void main(String args[])
 {
+s2 s1=news2();
+s1.p();
+}
+}
