@@ -6,3 +6,8 @@ System.out.println("method involked");
 }
 void p()
 {
+m(this);
+}
+}
+public static void main(String args[])
+{
