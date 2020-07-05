@@ -1,0 +1,4 @@
+class s2
+{
+void m(s2 obj)
+{
