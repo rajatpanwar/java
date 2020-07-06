@@ -1,7 +1,7 @@
 class Employee{  
  float salary=70000;  
 }  
-class Programmer extends Employee{  
+class Programmer extends Employee{                                               //extends is used to acquire the properties of super class
  int bonus=15000;  
  public static void main(String args[]){
 Programmer p=new Programmer();  
