@@ -1,0 +1,7 @@
+class Vehicle
+{
+void two_wheeler()
+{
+System.out.println("this is a scooty");
+}
+}
