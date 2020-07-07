@@ -5,3 +5,10 @@ void two_wheeler()
 System.out.println("this is a scooty");
 }
 }
+class Scooty extends Vehicle
+{
+void activa()
+{
+System.out.println("activa 4g");
+}
+}
