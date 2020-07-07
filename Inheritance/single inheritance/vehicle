@@ -12,3 +12,12 @@ void activa()
 System.out.println("activa 4g");
 }
 }
+class TestInheritance
+{
+public static void main(String args[])
+{
+Scooty s=new Scooty();
+s.two_wheeler();
+s.activa();
+}
+}
