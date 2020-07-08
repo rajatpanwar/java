@@ -12,3 +12,12 @@ void meow()
 System.out.println("meowing");
 }
 }
+class TestInheritance3
+{
+public static void main(String args[])
+{
+cat c=new cat();
+c.meow();
+c.eat();
+}
+}
