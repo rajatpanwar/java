@@ -1,3 +1,4 @@
+//many classes can inherit the properties of same class
 class Dog extends Animal
 {
 void bark()
