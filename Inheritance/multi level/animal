@@ -12,7 +12,7 @@ void bark()
 System.out.println("barking");
 }
 }
-class Babydog extends Dog
+class Babydog extends Dog                                     //inheriting the properties of inherited class
 {
 void weep()
 {
