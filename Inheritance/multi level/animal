@@ -12,3 +12,10 @@ void bark()
 System.out.println("barking");
 }
 }
+class Babydog extends Dog
+{
+void weep()
+{
+System.out.println("weeping");
+}
+}
