@@ -1,3 +1,4 @@
+//overloading by changing the no. of arguments
 class Addition
 {
 static int add(int a, int b)
