@@ -9,3 +9,11 @@ static int add(int a, int b, int c)
 return a+b+c;
 }
 }
+class Overloading1
+{
+public static void main(String args [])
+{
+System.out.println(Addition.add(21,30));
+System.out.println(Addition.add(2,30,42));
+}
+}
