@@ -9,3 +9,11 @@ static double diff(double a, double b)
 return a-b;
 }
 }
+class Overloading2
+{
+public static void main(String args [])
+{
+System.out.println(Subtraction.diff(31,14));
+System.out.println(Subtraction.diff(14.5,7.9));
+}
+}
