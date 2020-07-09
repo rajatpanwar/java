@@ -1,3 +1,4 @@
+//changing the data types
 class Subtraction
 {
 static int diff(int a, int b)
