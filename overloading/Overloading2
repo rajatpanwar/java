@@ -4,3 +4,8 @@ static int diff(int a, int b)
 {
 return a-b;
 }
+static double diff(double a, double b)
+{
+return a-b;
+}
+}
