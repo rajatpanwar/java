@@ -26,3 +26,15 @@ int Rateofinterest()
 return 8;
 }
 }
+class Balance 
+{
+public static void main(String args[])
+{
+SBI s=new SBI();
+AXIS a=new AXIS();
+ICICI i=new ICICI();
+System.out.println("SBI Rate of interest is:"+s.Rateofinterest());
+System.out.println("AXIS Rate of interest is:"+a.Rateofinterest());
+System.out.println("ICICI Rate of interest is:"+i.Rateofinterest());
+}
+}
