@@ -12,3 +12,10 @@ int Rateofinterest()
 return 9;
 }
 }
+class AXIS extends Bank
+{
+int Rateofinterest()
+{
+return 6;
+}
+}
