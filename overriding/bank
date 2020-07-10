@@ -19,3 +19,10 @@ int Rateofinterest()
 return 6;
 }
 }
+class ICICI extends Bank
+{
+int Rateofinterest()
+{
+return 8;
+}
+}
