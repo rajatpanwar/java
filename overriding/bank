@@ -1,0 +1,7 @@
+class Bank
+{
+int Rateofinterest()
+{
+return 0;
+}
+}
