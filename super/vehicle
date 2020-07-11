@@ -5,3 +5,13 @@ void manufacture()
 System.out.println("vehicle maunfacturing");
 }
 }
+class Bike extends Vehicle
+{
+void manufacture()
+{
+System.out.println("bike is being manufactured");
+}
+void finishing()
+{
+System.out.println("bikes finishing done");
+}
