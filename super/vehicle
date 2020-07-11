@@ -15,3 +15,9 @@ void finishing()
 {
 System.out.println("bikes finishing done");
 }
+void display()
+{
+super.manufacture();
+finishing();
+}
+}
