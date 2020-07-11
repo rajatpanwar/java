@@ -5,3 +5,11 @@ Animal()
 System.out.println("animal is born");
 }
 }
+class Cow extends Animal
+{
+Cow()
+{
+super();
+System.out.println("cow baby is born");
+}
+}
