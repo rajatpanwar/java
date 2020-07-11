@@ -1,0 +1,4 @@
+class Animal
+{
+String color="brown";
+}
