@@ -1,0 +1,7 @@
+class Vehicle
+{
+void manufacture()
+{
+System.out.println("vehicle maunfacturing");
+}
+}
