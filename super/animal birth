@@ -13,3 +13,10 @@ super();
 System.out.println("cow baby is born");
 }
 }
+class Super3
+{
+public static void main(String args[])
+{
+Cow c=new Cow();
+}
+}
