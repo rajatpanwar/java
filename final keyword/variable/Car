@@ -1,0 +1,7 @@
+class Car
+{
+final int speedlimit=120;
+void run()
+{
+int speedlimit=400;
+}
