@@ -11,3 +11,9 @@ void run()
 {
 System.out.println("running with speed 60kmph");
 }
+public static void run(String args[])
+{
+Pulsar p=new Pulsar();
+p.run();
+}
+}
