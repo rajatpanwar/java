@@ -5,3 +5,9 @@ void run()
 {
 System.out.println("running with speed 20kmph");
 }
+public static void main(String args[])
+{
+Honda h=new Honda();
+h.run();
+}
+}
