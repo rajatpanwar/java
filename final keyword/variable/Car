@@ -1,6 +1,6 @@
 class Car
 {
-final int speedlimit=120;
+final int speedlimit=120;                              //final variable
 void run()
 {
 int speedlimit=400;
