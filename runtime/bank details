@@ -12,3 +12,8 @@ class AXIS extends Bank
 float Rateofinterest()
 { return 6.7f; }
 }
+class ICICI extends Bank
+{
+float Rateofinterest()
+{return 5.9f; }
+}
