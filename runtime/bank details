@@ -2,3 +2,8 @@ class Bank
 {
 float Rateofinterest()
 { return 0; }
+class SBI extends Bank
+{
+float Rateofinterest()
+{ return 7.4f; }
+}
