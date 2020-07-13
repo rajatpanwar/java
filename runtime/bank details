@@ -1,0 +1,4 @@
+class Bank
+{
+float Rateofinterest()
+{ return 0; }
