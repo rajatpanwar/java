@@ -17,3 +17,10 @@ class ICICI extends Bank
 float Rateofinterest()
 {return 5.9f; }
 }
+class Runtime
+{
+public static void main(String args[])
+{
+Bank b;
+b=new SBI();
+System.out.println("SBI rate of interest"+b.Rateofinterest());
