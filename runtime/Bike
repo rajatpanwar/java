@@ -5,3 +5,9 @@ void run()
 System.out.println("running");
 }
 }
+class Pulsor extends Bike
+{
+void run()
+{
+System.out.println("running at speed of 70kmph");
+}
