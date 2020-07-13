@@ -7,3 +7,8 @@ class SBI extends Bank
 float Rateofinterest()
 { return 7.4f; }
 }
+class AXIS extends Bank
+{
+float Rateofinterest()
+{ return 6.7f; }
+}
