@@ -19,3 +19,10 @@ void draw()
 System.out.println("drawing square");
 }
 }
+class Circle extends Shape
+{
+void draw()
+{
+System.out.println("drawing circle");
+}
+}
