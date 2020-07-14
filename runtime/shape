@@ -26,3 +26,10 @@ void draw()
 System.out.println("drawing circle");
 }
 }
+class Runtime2
+{
+public static void main(String args[])
+{
+Shape s;
+s=new Rectangle();
+s.draw();
