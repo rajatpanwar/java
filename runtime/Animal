@@ -12,3 +12,8 @@ void eat()
 System.out.println("eating fruits");
 }
 }
+class Puppy extends Animal
+{
+System.out.println("drinking milk");
+}
+}
