@@ -22,3 +22,9 @@ public static void main(String args[])
 Animal a1,a2,a3;
 a1=new animal;
 a2=new dog;
+a3=new puppy;
+a1.eat();
+a2.eat();
+a3.eat();
+}
+}
