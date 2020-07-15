@@ -6,3 +6,7 @@ static void method(Animal a)
 {
 if(a instanceof Dog)
 {
+Dog d=(Dog)a;
+System.out.println("ol");
+}
+}
