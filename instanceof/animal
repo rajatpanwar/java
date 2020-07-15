@@ -10,3 +10,9 @@ Dog d=(Dog)a;
 System.out.println("ol");
 }
 }
+public static void main(String args[])
+{
+Animal a=new Dog();
+Dog.method(a);
+}
+} 
