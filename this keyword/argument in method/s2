@@ -6,7 +6,7 @@ System.out.println("method involked");
 }
 void p()
 {
-m(this);
+m(this);                                                  //this keyword is used to tell the specific class
 }
 }
 public static void main(String args[])
