@@ -6,7 +6,7 @@ class Test extends Thread
         {
         
          try{
-               Thread.sleep(500);
+               Thread.sleep(500);    //sleep a thread for a spacific amount of time
              }
           catch(InterruptedException e)
              {
