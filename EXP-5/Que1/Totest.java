@@ -19,8 +19,8 @@ interface test                //create interface
 			Scanner sc=new Scanner(System.in);
 			int a=sc.nextInt();
 			
-			arthmatic s=new arthmatic();
-			s.square(a);
+			arthmatic s=new arthmatic();    //create object for arthmatic class 
+			s.square(a);          //call square function
 			sc.close();
 		}
 
