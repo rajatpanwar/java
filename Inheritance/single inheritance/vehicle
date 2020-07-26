@@ -1,3 +1,4 @@
+<--------------single inheritance------------------>
 class Vehicle
 {
 void two_wheeler()
