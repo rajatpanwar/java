@@ -19,8 +19,8 @@ class Naresh extends Vinod       //Inherit the property
 public class Tsalary
 {
     public static void main(String[] args)
-      {
-            Naresh S=new Naresh();            //create a object of drived class
+      {                                                                        
+            Naresh S=new Naresh();            //create a object of drived class not need to vinod class
             S.salary();
             S.salary1();
        }
