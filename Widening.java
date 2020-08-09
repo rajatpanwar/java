@@ -1,4 +1,4 @@
-class Widening
+class Widening            //define a class
 {
   public static void main(String[] args)
   {
